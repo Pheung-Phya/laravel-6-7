@@ -18,4 +18,6 @@ class ProductDetailResorce extends JsonResource
             'category_name' => $this->whenLoaded('category', fn () => $this->category->name),
         ];
     }
+
+
 }
